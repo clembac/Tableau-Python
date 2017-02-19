@@ -41,11 +41,11 @@ In Tableau server 10.1 a connection to TabPy can be added
 
 * step 1 :
 
-![alt tag](/Users/baccarclement/Desktop/TabPy-master/img/tab1.png)
+![alt tag](./img/tab1.png)
 
 * step 2:
 
-![alt tag](/Users/baccarclement/Desktop/TabPy-master/img/tab2.png)
+![alt tag](./img/tab2.png)
 
 Create a new worksheet with any data source.
 
@@ -58,7 +58,7 @@ This tutorial uses the `hr_dataset.csv` dataset available on [sharepoint](https:
 
 To create a calculated field: `analysis > create a calculated field`
 
-![alt tag](/Users/baccarclement/Desktop/TabPy-master/img/calcul.png)
+![alt tag](./img/calcul.png)
 
 To compute the pearson correlation coefficient between two variables use the following calculated field.
 
@@ -78,7 +78,7 @@ It can be used for `R` or `Python` script
 
 Then display the correlation coefficient on the details windows.
 
-![alt tag](/Users/baccarclement/Desktop/TabPy-master/img/corr.png)
+![alt tag](./img/corr.png)
 
 
 Notice that the correlation coefficient is compute with the displayed data on the worksheet.
@@ -132,11 +132,11 @@ The labels might be display on a two-dimensional mapping. Display the `K` parame
 
 * for K=2
 
-![alt tag](/Users/baccarclement/Desktop/TabPy-master/img/kmeans_k.png)
+![alt tag](./img/kmeans_k.png)
 
 * for K=3
 
-![alt tag](/Users/baccarclement/Desktop/TabPy-master/img/kmeans.png)
+![alt tag](./img/kmeans.png)
 
 Notice that  the K-Means algorithm is compute with the actual dataset displayed on the worksheet.
 
@@ -180,7 +180,7 @@ ATTR([Income]),ATTR([Average Montly Hours]),ATTR([Time Spend Company])
 ```
 
 
-![alt tag](/Users/baccarclement/Desktop/TabPy-master/img/pca.png)
+![alt tag](./img/pca.png)
 
 Notice:
 
